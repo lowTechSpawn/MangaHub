@@ -15,7 +15,7 @@ export default function SeriesListPage({ series }) {
   })
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-8">
+    <div className="max-w-5xl mx-auto px-6 py-8">
       {/* Page header */}
       <div className="mb-6">
         <h1 className="text-xl font-semibold text-gray-900">Series Proposals</h1>

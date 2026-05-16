@@ -16,7 +16,7 @@ export default function SeriesDetailPage({ series, voteCounts }) {
   const canVote = series.status === 'proposed' || series.status === 'deferred'
 
   return (
-    <div className="max-w-2xl mx-auto px-6 py-8">
+    <div className="max-w-4xl mx-auto px-6 py-8">
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-xs text-gray-400 mb-6">
         <button onClick={() => navigate('/')} className="hover:text-gray-600 transition-colors">
